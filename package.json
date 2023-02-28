@@ -1,0 +1,20 @@
+{
+  "name": "mo-event-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "publish": "cd  ./dist && npm publish"
+  },
+  "keywords": [],
+  "author": "hechihe",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.1.4",
+    "vitest": "^0.29.1"
+  }
+}
+
