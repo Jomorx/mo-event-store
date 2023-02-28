@@ -14,8 +14,8 @@ describe("eventBus", () => {
     store.onState("name",(name)=>{
         outName=name
     });
-    store.state.name="asd"
-    expect(outName).to.equal("asd")
+    store.state.name="Jomorx"
+    expect(outName).to.equal("Jomorx")
     store.onState("hobby",(hobby)=>{
       outHobby=hobby
     })
